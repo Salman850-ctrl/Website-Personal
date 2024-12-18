@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+section {
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+
+#contact p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #333; /* Warna latar belakang footer */
+    color: white;           /* Warna teks */
+    text-align: center;     /* Mengatur teks agar berada di tengah */
+    padding: 10px 0;        /* Memberikan padding atas dan bawah pada footer */
+    position: relative;     /* Membuat posisi footer relatif terhadap halaman */
+    width: 100%;            /* Membuat footer mengisi seluruh lebar halaman */
+    bottom: 0;              /* Menjaga footer tetap di bagian bawah */
+    margin-top: 40px;       /* Memberikan jarak antara konten atas dengan footer */
+}
+
+footer p {
+    font-size: 1rem;        /* Ukuran font yang nyaman dibaca */
+    margin: 0;              /* Menghilangkan margin default */
+}
+
+
+
+.profile-img {
+    width: 120px; /* Ukuran lebar gambar */
+    height: 120px; /* Ukuran tinggi gambar */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover; /* Memastikan gambar mengisi kotak dengan proporsi yang tepat */
+    margin-bottom: 20px; /* Memberi jarak antara gambar dan teks */
+}
